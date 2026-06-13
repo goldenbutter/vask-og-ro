@@ -118,7 +118,7 @@
       'equip.head': 'Vårt utstyr',
       'equip.sub': 'Profesjonelt, godt vedlikeholdt utstyr og miljømerkede midler, klart for hvert oppdrag.',
       'equip.vacuum': 'Støvsuger med HEPA-filter', 'equip.steam': 'Damprenser', 'equip.floor': 'Gulvpolerer',
-      'equip.mop': 'Mopp og bøtte', 'equip.cloths': 'Mikrofiberkluter', 'equip.spray': 'Miljømerkede midler', 'equip.squeegee': 'Vindusnal og utstyr',
+      'equip.mop': 'Mopp og bøtte', 'equip.cloths': 'Mikrofiberkluter', 'equip.spray': 'Miljømerkede midler', 'equip.squeegee': 'Vindusnal og utstyr', 'equip.cart': 'Rengjøringstralle',
 
       /* kontakt */
       'kt.eyebrow': 'Kontakt',
@@ -273,7 +273,7 @@
       'equip.head': 'Our equipment',
       'equip.sub': 'Professional, well-maintained equipment and eco-labelled products, ready for every job.',
       'equip.vacuum': 'HEPA-filter vacuum', 'equip.steam': 'Steam cleaner', 'equip.floor': 'Floor polisher',
-      'equip.mop': 'Mop and bucket', 'equip.cloths': 'Microfibre cloths', 'equip.spray': 'Eco-labelled products', 'equip.squeegee': 'Squeegee & window kit',
+      'equip.mop': 'Mop and bucket', 'equip.cloths': 'Microfibre cloths', 'equip.spray': 'Eco-labelled products', 'equip.squeegee': 'Squeegee & window kit', 'equip.cart': 'Cleaning trolley',
 
       'kt.eyebrow': 'Contact',
       'kt.head': 'Get a quote or book a survey',

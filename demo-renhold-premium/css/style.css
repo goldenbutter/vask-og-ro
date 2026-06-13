@@ -186,8 +186,12 @@ main.page-fade { animation: pageFade .6s ease-out; }
 .hero-badge span { font-size: .78rem; color: var(--color-text-muted); }
 
 /* ---------- trust strip ---------- */
-.trust { border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); background: var(--color-bg-alt); }
-.trust-inner { display: flex; flex-wrap: wrap; gap: clamp(1.2rem,3vw,2.6rem); justify-content: center; padding: 1.1rem 0; }
+.trust { overflow: hidden; border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); background: var(--color-bg-alt); }
+.trust-track { display: flex; align-items: center; width: max-content; gap: clamp(1.2rem,3vw,2.6rem); padding: 1.1rem 0; animation: trust-marquee 30s linear infinite; }
+.trust-track:hover { animation-play-state: paused; }
+.trust-dup { display: flex; align-items: center; gap: clamp(1.2rem,3vw,2.6rem); }
+@keyframes trust-marquee { 0% { transform: translateX(-50%); } 100% { transform: translateX(0); } }
+@media (prefers-reduced-motion: reduce) { .trust-track { animation: none; flex-wrap: wrap; justify-content: center; } .trust-dup { display: none; } }
 .trust-item { display: flex; align-items: center; gap: .5rem; font-weight: 600; font-size: .92rem; }
 .trust-item svg { width: 20px; height: 20px; color: var(--color-secondary); flex: none; }
 .trust-item .num { font-family: var(--font-display); color: var(--color-primary-deep); }

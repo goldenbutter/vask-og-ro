@@ -1,0 +1,36 @@
+CLAUDE.md
+.claude/
+screenshot/
+*.zip
+.env*
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Per-prototype Nano Banana / Codex staging — original AI exports stay here, never committed
+_public/
+
+# Agent-internal artifacts (lead research, prospect lists, search prompts, decisions, image prompts, build log)
+# Family-wide rule (locked 2026-05-05): the entire _docs/ folder is gitignored. Build log lives at
+# _docs/_prompt/BUILD_PROGRESS.md and stays between Bithun and the agent — Google Drive Desktop sync
+# of the prototypes folder provides cross-machine durability, GitHub is not the durability mechanism.
+_docs/
+
+# Codex image-generation artifacts (these carry AI tool names + large scratch data and would trip the
+# github pre-push gate / bloat the repo). The AGENTS.md Codex brief + .codex/ prompts + tmp scratch +
+# *.command launcher scripts all stay local-only.
+AGENTS.md
+.codex/
+tmp/
+*.command
+
+# Test/preview artifacts
+.playwright-mcp/
+*.png
+# Design-preview mockup exports staged at repo root (pv-*.jpeg) — never committed.
+# Real tier assets are *.jpg under demo-*/assets/images/ and stay tracked.
+*.jpeg
+
+# IDE config
+.vscode/
+.idea/

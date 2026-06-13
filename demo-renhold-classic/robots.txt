@@ -1,2 +1,3 @@
+# Vask & Ro demo (staging): noindex + Disallow until launch.
 User-agent: *
 Disallow: /

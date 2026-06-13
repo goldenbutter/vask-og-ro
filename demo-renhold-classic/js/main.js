@@ -151,7 +151,7 @@
       'deposit.body': 'Betal et depositum på 500 kr for å reservere oppdraget. Beløpet trekkes fra sluttsummen når jobben er ferdig.',
       'deposit.field.service': 'Tjeneste', 'deposit.field.name': 'Navn', 'deposit.field.date': 'Ønsket dato',
       'deposit.service.placeholder': 'Velg tjeneste',
-      'deposit.amount.label': 'Depositum', 'deposit.cta': 'Betal depositum & bekreft',
+      'deposit.amount.label': 'Depositum', 'deposit.cta': 'Betal', 'deposit.confirm': 'Depositum 500 kr, bekreftes ved betaling',
 
       'contact.details.head': 'Kontaktinformasjon',
       'contact.hours.head': 'Åpningstider',
@@ -305,7 +305,7 @@
       'deposit.body': 'Pay a 500 kr deposit to reserve the job. The amount is deducted from the final total when the work is done.',
       'deposit.field.service': 'Service', 'deposit.field.name': 'Name', 'deposit.field.date': 'Preferred date',
       'deposit.service.placeholder': 'Choose a service',
-      'deposit.amount.label': 'Deposit', 'deposit.cta': 'Pay deposit & confirm',
+      'deposit.amount.label': 'Deposit', 'deposit.cta': 'Pay', 'deposit.confirm': 'Deposit 500 kr, confirmed on payment',
 
       'contact.details.head': 'Contact information',
       'contact.hours.head': 'Opening hours',

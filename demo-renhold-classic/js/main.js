@@ -123,6 +123,11 @@
       'team.sub': 'Faste fjes du blir kjent med — ikke et nytt vikarbyrå hver uke.',
       'team.role.leader': 'Daglig leder', 'team.role.team': 'Teamleder', 'team.role.cleaner': 'Renholder', 'team.role.window': 'Vindusspesialist',
 
+      'equip.head': 'Vårt utstyr',
+      'equip.sub': 'Profesjonelt, godt vedlikeholdt utstyr og miljømerkede midler — klart for hvert oppdrag.',
+      'equip.vacuum': 'Støvsuger med HEPA-filter', 'equip.steam': 'Damprenser', 'equip.floor': 'Gulvpolerer',
+      'equip.mop': 'Mopp og bøtte', 'equip.cloths': 'Mikrofiberkluter', 'equip.spray': 'Miljømerkede midler', 'equip.squeegee': 'Vindusnal og utstyr',
+
       // kontakt
       'kt.eyebrow': 'Kontakt',
       'kt.head': 'Be om tilbud eller book en befaring',
@@ -272,6 +277,11 @@
       'team.head': 'The people who come to your home',
       'team.sub': 'Familiar faces you get to know — not a new agency every week.',
       'team.role.leader': 'Managing director', 'team.role.team': 'Team lead', 'team.role.cleaner': 'Cleaner', 'team.role.window': 'Window specialist',
+
+      'equip.head': 'Our equipment',
+      'equip.sub': 'Professional, well-maintained equipment and eco-labelled products — ready for every job.',
+      'equip.vacuum': 'HEPA-filter vacuum', 'equip.steam': 'Steam cleaner', 'equip.floor': 'Floor polisher',
+      'equip.mop': 'Mop and bucket', 'equip.cloths': 'Microfibre cloths', 'equip.spray': 'Eco-labelled products', 'equip.squeegee': 'Squeegee & window kit',
 
       'kt.eyebrow': 'Contact',
       'kt.head': 'Get a quote or book a survey',

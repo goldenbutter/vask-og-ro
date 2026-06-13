@@ -61,6 +61,7 @@
 | Price-by-area calculator (water-fill slider, count-up total, −20% recurring rabatt) | ✅ |
 | Before/after hover/tap crossfade (kitchen + bathroom) + `.is-tapped` iOS twin | ✅ |
 | Two-axis card-float + icon-drift — home preview AND `tjenester.html` listing | ✅ |
+| Equipment showcase ("Vårt utstyr", om-oss) — 7 photos, card-float + `.is-tapped` iOS twin (static cream cards on classic) | ✅ |
 | One-shot nav-logo hover rotate; scroll-reveal; ring-pulse phone CTA | ✅ |
 | Stripe deposit checkout (500 kr, `?svc=` + `.book-trigger` auto-select, success receipt) | ✅ |
 | Liquid-glass mobile menu (`backdrop-filter: blur`) | ✅ |
@@ -138,3 +139,4 @@ After sign-off, skill creation is a separate session (root **skill-builder** Pla
 
 ## Notes / changelog
 - 2026-06-13 15:35 norsk sommertid — pipeline DEVELOPER fresh build: scaffold + both tiers + configs, 3 atomic commits on `main`, self-audit all green, READINESS created. 0 ❌. ⚠️ launch-blockers: AI photos + not-yet-deployed. on-stop hook chains REVIEWER next.
+- 2026-06-13 17:25 norsk sommertid — S57 DEVELOPER post-build fix pass (Bithun smoke-walk; 3 atomic commits, both tiers, local `main`, no push). (1) **Footer gutter** — restored left/right `clamp(1.25rem,3vw,2.5rem)` on `.footer-top`/`.footer-bottom` (they already inherit `.container` cap+centre; only the shorthand's 0-horizontal was overriding) → footer content at 20px @375/360 (was flush at 0). (2) **Hero no-jump** — `.hero h1 { min-height:3.4em }` reserves the tallest state + clamp floor `2.4rem→2.15rem` so the typewriter cycle never reflows the hero and the longest phrase ("med miljømerkede midler") stays ≤2 rotating lines down to 360px → h1 height constant + maxRotLines=2 @375/360, both tiers. (3) **Orphan photos wired** — `service-hytte-flyttevask.jpg` → index `#tjenester` services-preview `data-bg` (eco-products-flatlay still used as the eco `<img>` + on kontakt); 7 equipment shots → new "Vårt utstyr" showcase on om-oss (cream cards, premium card-float + `.is-tapped` twin, classic static) → 7/7 imgs load, 0 broken. Only `before-after-bedroom-after.jpg` left unused (intentional — no "before" pair). All headless-verified (Playwright chromium-1223, temp profile — MCP browser was held by a parallel session). Reviewer re-spawn by on-stop hook; nothing pushed.

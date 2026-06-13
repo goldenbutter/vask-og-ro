@@ -1,5 +1,5 @@
 /* ============================================================
-   VASK & RO — PREMIUM — main.js
+   VASK & RO - PREMIUM - main.js
    Vanilla, dependency-free. i18n active (NO/EN), all motion on.
    Motion/calculator/form helpers are t()-free + currentLang-free
    so the classic tier can wrap ONLY the i18n block.
@@ -10,7 +10,7 @@
   var INSTANT = false; /* premium animates the calculator count-up */
 
   /* =========================================================
-     TRANSLATIONS  (premium: active — classic wraps this block)
+     TRANSLATIONS  (premium: active - classic wraps this block)
      ========================================================= */
   var translations = {
     no: {
@@ -19,7 +19,7 @@
 
       'hero.eyebrow': 'Renhold i Trondheim · Miljømerket',
       'hero.pre': 'Vi gjør rent',
-      'hero.lead': 'Profesjonelt renhold for hjem og kontor — trygt, grundig og med miljøvennlige midler. Fast team, forsikret, og priser du ser på forhånd.',
+      'hero.lead': 'Profesjonelt renhold for hjem og kontor. Trygt, grundig og med miljøvennlige midler. Fast team, forsikret, og priser du ser på forhånd.',
       'hero.cta1': 'Be om tilbud', 'hero.cta2': 'Ring 73 00 00 00',
       'hero.badge.count': '600+ hjem', 'hero.badge.rating': '★ 4,9 av 5',
       'hero.img.alt': 'Renholder vasker vindu i et lyst, nyvasket hjem',
@@ -30,10 +30,10 @@
       'trust.rating': 'snitt', 'trust.homes': 'hjem', 'trust.years': 'i Trondheim',
 
       'home.svc.head': 'Tjenester for hjem og bedrift',
-      'home.svc.sub': 'Fra ukentlig hjemmevask til flyttevask og kontorrenhold — vi tilpasser oss ditt behov.',
+      'home.svc.sub': 'Fra ukentlig hjemmevask til flyttevask og kontorrenhold, vi tilpasser oss ditt behov.',
       'home.svc.all': 'Se alle tjenester',
 
-      'svc.home.title': 'Hjemmevask', 'svc.home.desc': 'Fast eller ved behov — kjøkken, bad, støvtørk og gulv.', 'svc.home.from': 'fra 449 kr/gang',
+      'svc.home.title': 'Hjemmevask', 'svc.home.desc': 'Fast eller ved behov: kjøkken, bad, støvtørk og gulv.', 'svc.home.from': 'fra 449 kr/gang',
       'svc.window.title': 'Vinduspuss', 'svc.window.desc': 'Strimefritt innvendig og utvendig, også vanskelige vinduer.', 'svc.window.from': 'fra 690 kr',
       'svc.move.title': 'Hytte- & flyttevask', 'svc.move.desc': 'Grundig nedvask med overtakelsesgaranti.', 'svc.move.from': 'fra 2 490 kr',
       'svc.office.title': 'Kontorrenhold', 'svc.office.desc': 'Avtaler for kontor og næring, kvelds- eller dagtid.', 'svc.office.from': 'tilbud',
@@ -41,12 +41,12 @@
       'ba.eyebrow': 'Før / Etter',
       'ba.head': 'Se forskjellen',
       'ba.sub': 'Hold pekeren over (eller trykk) for å se resultatet. Ekte renhold, ikke retusjert markedsføring.',
-      'ba.sub.classic': 'Ekte resultater fra hjem vi har vasket — før og etter, side om side.',
+      'ba.sub.classic': 'Ekte resultater fra hjem vi har vasket, før og etter, side om side.',
       'ba.room.kitchen': 'Kjøkken', 'ba.room.bath': 'Bad',
       'ba.tag.before': 'FØR', 'ba.tag.after': 'ETTER', 'ba.hint': 'hold for etter →',
 
       'calc.head': 'Hva koster det? Regn det ut.',
-      'calc.sub': 'Dra på kvadratmeter, velg hvor ofte — så ser du prisen med en gang. Ingen overraskelser.',
+      'calc.sub': 'Dra på kvadratmeter, velg hvor ofte, så ser du prisen med en gang. Ingen overraskelser.',
       'calc.size': 'Størrelse:', 'calc.freq': 'Hvor ofte?',
       'calc.freq.once': 'Engangs', 'calc.freq.rec': 'Fast (hver 2. uke)',
       'calc.addons': 'Tillegg',
@@ -56,7 +56,7 @@
 
       'eco.badge': 'Miljømerket renhold',
       'eco.head': 'Det du puster inn betyr noe',
-      'eco.body': 'Vi bruker svanemerkede, parfymefrie midler — trygt for barn, dyr og allergikere. Like rent, uten ett eneste kjemikalie for mye.',
+      'eco.body': 'Vi bruker svanemerkede, parfymefrie midler, trygt for barn, dyr og allergikere. Like rent, uten ett eneste kjemikalie for mye.',
       'eco.li1': 'Parfyme- og allergenfrie midler',
       'eco.li2': 'Mikrofiber som rengjør med mindre kjemi',
       'eco.li3': 'Resirkulerbar emballasje og doseringskontroll',
@@ -66,7 +66,7 @@
       'testi.cite': 'Marit H. · Byåsen',
 
       'cta.head': 'Klar for et renere hjem?',
-      'cta.body': 'Be om et uforpliktende tilbud, eller ring oss — vi finner en tid som passer, ofte allerede denne uka.',
+      'cta.body': 'Be om et uforpliktende tilbud, eller ring oss. Vi finner en tid som passer, ofte allerede denne uka.',
       'cta.btn1': 'Be om tilbud', 'cta.btn2': 'Ring 73 00 00 00',
 
       'footer.tagline': 'Miljømerket renhold for hjem og bedrift i Trondheim. Fast team, forsikret, og priser du ser på forhånd.',
@@ -79,20 +79,20 @@
       /* tjenester */
       'tj.eyebrow': 'Tjenester',
       'tj.head': 'Renhold tilpasset ditt behov',
-      'tj.sub': 'Faste avtaler eller engangsoppdrag — for hjem, hytte og næring. Alt utføres av et fast, forsikret team med miljømerkede midler.',
+      'tj.sub': 'Faste avtaler eller engangsoppdrag, for hjem, hytte og næring. Alt utføres av et fast, forsikret team med miljømerkede midler.',
       'tj.incl1': 'Inkluderer:',
       'svc.home.dur': 'Ca. 2–4 timer', 'svc.window.dur': 'Ca. 1–3 timer',
       'svc.move.dur': 'Halv til hel dag', 'svc.office.dur': 'Etter avtale',
       'svc.home.cta': 'Bestill hjemmevask', 'svc.window.cta': 'Bestill vinduspuss',
       'svc.move.cta': 'Bestill flyttevask', 'svc.office.cta': 'Be om tilbud',
-      'svc.home.i1': 'Kjøkken, bad og alle rom', 'svc.home.i2': 'Støvtørk, gulv og overflater', 'svc.home.i3': 'Egne kluter per rom — ingen smitte',
+      'svc.home.i1': 'Kjøkken, bad og alle rom', 'svc.home.i2': 'Støvtørk, gulv og overflater', 'svc.home.i3': 'Egne kluter per rom, ingen smitte',
       'svc.window.i1': 'Innvendig og utvendig', 'svc.window.i2': 'Karmer og rammer tørkes', 'svc.window.i3': 'Strimefritt resultat',
       'svc.move.i1': 'Skap, skuffer og hvitevarer', 'svc.move.i2': 'Overtakelsesgaranti', 'svc.move.i3': 'Klar for visning eller innflytting',
-      'svc.office.i1': 'Fast renholdsplan', 'svc.office.i2': 'Kveld eller dag — du velger', 'svc.office.i3': 'Egen kontaktperson',
+      'svc.office.i1': 'Fast renholdsplan', 'svc.office.i2': 'Kveld eller dag, du velger', 'svc.office.i3': 'Egen kontaktperson',
 
       'tj.process.head': 'Slik jobber vi',
       'tj.process.sub': 'Enkelt fra første kontakt til skinnende resultat.',
-      'step1.title': 'Befaring & tilbud', 'step1.desc': 'Vi kartlegger behovet og gir en tydelig, fast pris — uten skjulte kostnader.',
+      'step1.title': 'Befaring & tilbud', 'step1.desc': 'Vi kartlegger behovet og gir en tydelig, fast pris, uten skjulte kostnader.',
       'step2.title': 'Fast team', 'step2.desc': 'De samme renholderne kommer hver gang, og kjenner hjemmet ditt.',
       'step3.title': 'Skinnende resultat', 'step3.desc': 'Miljømerkede midler, grundig utført, og en kvalitetssjekk hver gang.',
 
@@ -101,9 +101,9 @@
       'om.head': 'Et renere hjem, med god samvittighet',
       'om.sub': 'Vask & Ro er et lokalt renholdsbyrå i Trondheim med ett mål: renhold som er trygt å puste inn.',
       'om.story.head': 'Historien vår',
-      'om.story.p1': 'Ingrid Solheim startet Vask & Ro i 2020, etter ti år i bransjen og en enkel idé: renhold skal være grundig, ærlig og trygt — også for dem som bor med allergi.',
+      'om.story.p1': 'Ingrid Solheim startet Vask & Ro i 2020, etter ti år i bransjen og en enkel idé: renhold skal være grundig, ærlig og trygt, også for dem som bor med allergi.',
       'om.story.p2': 'I dag er vi et fast team på tolv som kjenner hjemmene vi steller og kundene som bor i dem. Vi bruker bare miljømerkede midler, og vi tror på faste folk framfor stadig nye ansikter.',
-      'om.story.sig': '— Ingrid Solheim, daglig leder',
+      'om.story.sig': 'Ingrid Solheim, daglig leder',
       'om.story.img.alt': 'Ingrid Solheim, daglig leder i Vask & Ro',
       'cert.head': 'Sertifiseringer & trygghet',
       'cert.sub': 'Dokumentert kvalitet du kan stole på.',
@@ -112,24 +112,24 @@
       'cert3.title': 'Renholdsverk-godkjent', 'cert3.desc': 'Registrert og godkjent renholdsvirksomhet.',
       'cert4.title': 'Fast team', 'cert4.desc': 'Faste, kvalitetssikrede renholdere.',
       'team.head': 'Folkene som kommer hjem til deg',
-      'team.sub': 'Faste fjes du blir kjent med — ikke et nytt vikarbyrå hver uke.',
+      'team.sub': 'Faste fjes du blir kjent med, ikke et nytt vikarbyrå hver uke.',
       'team.role.leader': 'Daglig leder', 'team.role.team': 'Teamleder', 'team.role.cleaner': 'Renholder', 'team.role.window': 'Vindusspesialist',
 
       'equip.head': 'Vårt utstyr',
-      'equip.sub': 'Profesjonelt, godt vedlikeholdt utstyr og miljømerkede midler — klart for hvert oppdrag.',
+      'equip.sub': 'Profesjonelt, godt vedlikeholdt utstyr og miljømerkede midler, klart for hvert oppdrag.',
       'equip.vacuum': 'Støvsuger med HEPA-filter', 'equip.steam': 'Damprenser', 'equip.floor': 'Gulvpolerer',
       'equip.mop': 'Mopp og bøtte', 'equip.cloths': 'Mikrofiberkluter', 'equip.spray': 'Miljømerkede midler', 'equip.squeegee': 'Vindusnal og utstyr',
 
       /* kontakt */
       'kt.eyebrow': 'Kontakt',
       'kt.head': 'Be om tilbud eller book en befaring',
-      'kt.sub': 'Fortell oss litt om hjemmet eller lokalet ditt, så tar vi kontakt — som regel innen 24 timer.',
+      'kt.sub': 'Fortell oss litt om hjemmet eller lokalet ditt, så tar vi kontakt, som regel innen 24 timer.',
       'form.name': 'Navn', 'form.email': 'E-post', 'form.phone': 'Telefon', 'form.service': 'Tjeneste', 'form.message': 'Melding',
       'form.service.placeholder': 'Velg tjeneste',
       'form.name.ph': 'Ola Nordmann', 'form.email.ph': 'din@epost.no', 'form.phone.ph': '400 00 000',
       'form.message.ph': 'Fortell oss om størrelse, antall rom og hvor ofte du ønsker renhold.',
       'form.cta': 'Send forespørsel',
-      'form.success': 'Takk! Forespørselen er mottatt (demo) — vi tar kontakt innen 24 timer.',
+      'form.success': 'Takk! Forespørselen er mottatt (demo). Vi tar kontakt innen 24 timer.',
       'form.err.name': 'Fyll inn navn.', 'form.err.email': 'Fyll inn en gyldig e-post.', 'form.err.service': 'Velg en tjeneste.',
 
       'phone.eyebrow': 'Ring oss',
@@ -149,7 +149,7 @@
       'contact.hours.head': 'Åpningstider',
       'contact.hours.body': 'Man–fre 07–18\nLør 09–14\nSøn stengt',
       'contact.area.head': 'Vi dekker',
-      'contact.area.body': 'Trondheim og omegn — Byåsen, Lade, Heimdal, Ranheim og sentrum.',
+      'contact.area.body': 'Trondheim og omegn: Byåsen, Lade, Heimdal, Ranheim og sentrum.',
 
       /* stripe modal */
       'stripe.title': 'Betal depositum',
@@ -158,8 +158,8 @@
       'stripe.exp': 'Utløp', 'stripe.cvc': 'CVC',
       'stripe.error': 'Fyll inn en gyldig e-post og et kortnummer.',
       'stripe.pay': 'Betal',
-      'stripe.demoNote': 'Dette er en demo — Stripe-betaling aktiveres når din Stripe-konto er koblet til.',
-      'stripe.success.title': 'Betaling fullført — demo',
+      'stripe.demoNote': 'Dette er en demo. Stripe-betaling aktiveres når din Stripe-konto er koblet til.',
+      'stripe.success.title': 'Betaling fullført · demo',
       'stripe.receipt.booking': 'Booking-ID', 'stripe.receipt.service': 'Tjeneste',
       'stripe.receipt.amount': 'Depositum betalt', 'stripe.receipt.date': 'Bekreftet',
       'stripe.success.body': 'Vi har sendt en bekreftelse på e-post. Velkommen til Vask & Ro!',
@@ -167,7 +167,7 @@
 
       /* 404 */
       'nf.title': 'Denne siden er allerede vasket bort',
-      'nf.sub': 'Vi finner ikke siden du leter etter — men vi finner alltid flekken på gulvet.',
+      'nf.sub': 'Vi finner ikke siden du leter etter, men vi finner alltid flekken på gulvet.',
       'nf.cta': 'Tilbake til forsiden'
     },
     en: {
@@ -176,7 +176,7 @@
 
       'hero.eyebrow': 'Cleaning in Trondheim · Eco-certified',
       'hero.pre': 'We clean',
-      'hero.lead': 'Professional cleaning for homes and offices — safe, thorough, and with eco-friendly products. A fixed team, fully insured, and prices you see upfront.',
+      'hero.lead': 'Professional cleaning for homes and offices. Safe, thorough, and with eco-friendly products. A fixed team, fully insured, and prices you see upfront.',
       'hero.cta1': 'Get a quote', 'hero.cta2': 'Call 73 00 00 00',
       'hero.badge.count': '600+ homes', 'hero.badge.rating': '★ 4.9 of 5',
       'hero.img.alt': 'A cleaner washing a window in a bright, freshly cleaned home',
@@ -187,10 +187,10 @@
       'trust.rating': 'average', 'trust.homes': 'homes', 'trust.years': 'in Trondheim',
 
       'home.svc.head': 'Services for home and business',
-      'home.svc.sub': 'From weekly home cleaning to move-out and office cleaning — we adapt to your needs.',
+      'home.svc.sub': 'From weekly home cleaning to move-out and office cleaning, we adapt to your needs.',
       'home.svc.all': 'See all services',
 
-      'svc.home.title': 'Home cleaning', 'svc.home.desc': 'Regular or as needed — kitchen, bath, dusting and floors.', 'svc.home.from': 'from 449 kr/visit',
+      'svc.home.title': 'Home cleaning', 'svc.home.desc': 'Regular or as needed: kitchen, bath, dusting and floors.', 'svc.home.from': 'from 449 kr/visit',
       'svc.window.title': 'Window cleaning', 'svc.window.desc': 'Streak-free inside and out, even tricky windows.', 'svc.window.from': 'from 690 kr',
       'svc.move.title': 'Cabin & move-out', 'svc.move.desc': 'Thorough deep-clean with a handover guarantee.', 'svc.move.from': 'from 2,490 kr',
       'svc.office.title': 'Office cleaning', 'svc.office.desc': 'Agreements for offices and businesses, evening or day.', 'svc.office.from': 'quote',
@@ -198,12 +198,12 @@
       'ba.eyebrow': 'Before / After',
       'ba.head': 'See the difference',
       'ba.sub': 'Hover (or tap) to reveal the result. Real cleaning, not retouched marketing.',
-      'ba.sub.classic': 'Real results from homes we have cleaned — before and after, side by side.',
+      'ba.sub.classic': 'Real results from homes we have cleaned, before and after, side by side.',
       'ba.room.kitchen': 'Kitchen', 'ba.room.bath': 'Bathroom',
       'ba.tag.before': 'BEFORE', 'ba.tag.after': 'AFTER', 'ba.hint': 'hold for after →',
 
       'calc.head': 'What does it cost? Work it out.',
-      'calc.sub': 'Drag the square metres, pick how often — and see the price instantly. No surprises.',
+      'calc.sub': 'Drag the square metres, pick how often, and see the price instantly. No surprises.',
       'calc.size': 'Size:', 'calc.freq': 'How often?',
       'calc.freq.once': 'One-off', 'calc.freq.rec': 'Recurring (every 2 weeks)',
       'calc.addons': 'Add-ons',
@@ -213,7 +213,7 @@
 
       'eco.badge': 'Eco-certified cleaning',
       'eco.head': 'What you breathe in matters',
-      'eco.body': 'We use eco-labelled, fragrance-free products — safe for children, pets and allergy sufferers. Just as clean, without a single chemical too many.',
+      'eco.body': 'We use eco-labelled, fragrance-free products, safe for children, pets and allergy sufferers. Just as clean, without a single chemical too many.',
       'eco.li1': 'Fragrance- and allergen-free products',
       'eco.li2': 'Microfibre that cleans with less chemistry',
       'eco.li3': 'Recyclable packaging and dosage control',
@@ -223,7 +223,7 @@
       'testi.cite': 'Marit H. · Byåsen',
 
       'cta.head': 'Ready for a cleaner home?',
-      'cta.body': 'Ask for a no-obligation quote, or call us — we will find a time that suits, often this very week.',
+      'cta.body': 'Ask for a no-obligation quote, or call us. We will find a time that suits, often this very week.',
       'cta.btn1': 'Get a quote', 'cta.btn2': 'Call 73 00 00 00',
 
       'footer.tagline': 'Eco-certified cleaning for homes and businesses in Trondheim. A fixed team, insured, and prices you see upfront.',
@@ -235,20 +235,20 @@
 
       'tj.eyebrow': 'Services',
       'tj.head': 'Cleaning tailored to your needs',
-      'tj.sub': 'Regular agreements or one-off jobs — for homes, cabins and businesses. All carried out by a fixed, insured team with eco-labelled products.',
+      'tj.sub': 'Regular agreements or one-off jobs, for homes, cabins and businesses. All carried out by a fixed, insured team with eco-labelled products.',
       'tj.incl1': 'Includes:',
       'svc.home.dur': 'Approx. 2–4 hours', 'svc.window.dur': 'Approx. 1–3 hours',
       'svc.move.dur': 'Half to full day', 'svc.office.dur': 'By agreement',
       'svc.home.cta': 'Book home cleaning', 'svc.window.cta': 'Book window cleaning',
       'svc.move.cta': 'Book move-out clean', 'svc.office.cta': 'Get a quote',
-      'svc.home.i1': 'Kitchen, bath and all rooms', 'svc.home.i2': 'Dusting, floors and surfaces', 'svc.home.i3': 'Dedicated cloths per room — no cross-contamination',
+      'svc.home.i1': 'Kitchen, bath and all rooms', 'svc.home.i2': 'Dusting, floors and surfaces', 'svc.home.i3': 'Dedicated cloths per room, no cross-contamination',
       'svc.window.i1': 'Inside and outside', 'svc.window.i2': 'Frames and sills wiped', 'svc.window.i3': 'Streak-free result',
       'svc.move.i1': 'Cupboards, drawers and appliances', 'svc.move.i2': 'Handover guarantee', 'svc.move.i3': 'Ready for viewing or move-in',
-      'svc.office.i1': 'Fixed cleaning schedule', 'svc.office.i2': 'Evening or day — you choose', 'svc.office.i3': 'Your own contact person',
+      'svc.office.i1': 'Fixed cleaning schedule', 'svc.office.i2': 'Evening or day, you choose', 'svc.office.i3': 'Your own contact person',
 
       'tj.process.head': 'How we work',
       'tj.process.sub': 'Simple from first contact to a sparkling result.',
-      'step1.title': 'Survey & quote', 'step1.desc': 'We map the need and give a clear, fixed price — with no hidden costs.',
+      'step1.title': 'Survey & quote', 'step1.desc': 'We map the need and give a clear, fixed price, with no hidden costs.',
       'step2.title': 'Fixed team', 'step2.desc': 'The same cleaners come every time and know your home.',
       'step3.title': 'Sparkling result', 'step3.desc': 'Eco-labelled products, thorough work, and a quality check every time.',
 
@@ -256,9 +256,9 @@
       'om.head': 'A cleaner home, with a clear conscience',
       'om.sub': 'Vask & Ro is a local cleaning company in Trondheim with one goal: cleaning that is safe to breathe in.',
       'om.story.head': 'Our story',
-      'om.story.p1': 'Ingrid Solheim founded Vask & Ro in 2020, after ten years in the trade and one simple idea: cleaning should be thorough, honest and safe — also for those who live with allergies.',
+      'om.story.p1': 'Ingrid Solheim founded Vask & Ro in 2020, after ten years in the trade and one simple idea: cleaning should be thorough, honest and safe, also for those who live with allergies.',
       'om.story.p2': 'Today we are a fixed team of twelve who know the homes we care for and the people who live in them. We use only eco-labelled products, and we believe in familiar faces rather than ever-changing ones.',
-      'om.story.sig': '— Ingrid Solheim, managing director',
+      'om.story.sig': 'Ingrid Solheim, managing director',
       'om.story.img.alt': 'Ingrid Solheim, managing director of Vask & Ro',
       'cert.head': 'Certifications & assurance',
       'cert.sub': 'Documented quality you can rely on.',
@@ -267,23 +267,23 @@
       'cert3.title': 'Approved cleaner', 'cert3.desc': 'Registered and approved cleaning business.',
       'cert4.title': 'Fixed team', 'cert4.desc': 'Permanent, quality-assured cleaners.',
       'team.head': 'The people who come to your home',
-      'team.sub': 'Familiar faces you get to know — not a new agency every week.',
+      'team.sub': 'Familiar faces you get to know, not a new agency every week.',
       'team.role.leader': 'Managing director', 'team.role.team': 'Team lead', 'team.role.cleaner': 'Cleaner', 'team.role.window': 'Window specialist',
 
       'equip.head': 'Our equipment',
-      'equip.sub': 'Professional, well-maintained equipment and eco-labelled products — ready for every job.',
+      'equip.sub': 'Professional, well-maintained equipment and eco-labelled products, ready for every job.',
       'equip.vacuum': 'HEPA-filter vacuum', 'equip.steam': 'Steam cleaner', 'equip.floor': 'Floor polisher',
       'equip.mop': 'Mop and bucket', 'equip.cloths': 'Microfibre cloths', 'equip.spray': 'Eco-labelled products', 'equip.squeegee': 'Squeegee & window kit',
 
       'kt.eyebrow': 'Contact',
       'kt.head': 'Get a quote or book a survey',
-      'kt.sub': 'Tell us a little about your home or premises and we will be in touch — usually within 24 hours.',
+      'kt.sub': 'Tell us a little about your home or premises and we will be in touch, usually within 24 hours.',
       'form.name': 'Name', 'form.email': 'Email', 'form.phone': 'Phone', 'form.service': 'Service', 'form.message': 'Message',
       'form.service.placeholder': 'Choose a service',
       'form.name.ph': 'Jane Doe', 'form.email.ph': 'you@email.com', 'form.phone.ph': '400 00 000',
       'form.message.ph': 'Tell us about the size, number of rooms and how often you want cleaning.',
       'form.cta': 'Send request',
-      'form.success': 'Thank you! Your request has been received (demo) — we will be in touch within 24 hours.',
+      'form.success': 'Thank you! Your request has been received (demo). We will be in touch within 24 hours.',
       'form.err.name': 'Please enter your name.', 'form.err.email': 'Please enter a valid email.', 'form.err.service': 'Please choose a service.',
 
       'phone.eyebrow': 'Call us',
@@ -303,7 +303,7 @@
       'contact.hours.head': 'Opening hours',
       'contact.hours.body': 'Mon–Fri 07–18\nSat 09–14\nSun closed',
       'contact.area.head': 'We cover',
-      'contact.area.body': 'Trondheim and surroundings — Byåsen, Lade, Heimdal, Ranheim and the city centre.',
+      'contact.area.body': 'Trondheim and surroundings: Byåsen, Lade, Heimdal, Ranheim and the city centre.',
 
       'stripe.title': 'Pay deposit',
       'stripe.payingFor': 'Deposit for',
@@ -311,15 +311,15 @@
       'stripe.exp': 'Expiry', 'stripe.cvc': 'CVC',
       'stripe.error': 'Enter a valid email and a card number.',
       'stripe.pay': 'Pay',
-      'stripe.demoNote': 'This is a demo — Stripe payment is activated when your Stripe account is connected.',
-      'stripe.success.title': 'Payment complete — demo',
+      'stripe.demoNote': 'This is a demo. Stripe payment is activated when your Stripe account is connected.',
+      'stripe.success.title': 'Payment complete · demo',
       'stripe.receipt.booking': 'Booking ID', 'stripe.receipt.service': 'Service',
       'stripe.receipt.amount': 'Deposit paid', 'stripe.receipt.date': 'Confirmed',
       'stripe.success.body': 'We have sent a confirmation by email. Welcome to Vask & Ro!',
       'stripe.success.close': 'Done',
 
       'nf.title': 'This page has already been cleaned away',
-      'nf.sub': 'We can’t find the page you’re looking for — but we always find the spot on the floor.',
+      'nf.sub': 'We can’t find the page you’re looking for, but we always find the spot on the floor.',
       'nf.cta': 'Back to home'
     }
   };
@@ -335,7 +335,7 @@
     document.querySelectorAll('[data-i18n]').forEach(function (el) {
       var key = el.getAttribute('data-i18n');
       var val = t(key);
-      if (val === key) return;                 /* missing key — keep existing HTML, never paint the raw key */
+      if (val === key) return;                 /* missing key - keep existing HTML, never paint the raw key */
       if (el.tagName === 'IMG') el.alt = val;
       else if (el.hasAttribute('placeholder')) el.placeholder = val;
       else if (el.hasAttribute('data-i18n-html')) el.innerHTML = val;
@@ -366,7 +366,7 @@
   }
 
   /* =========================================================
-     NAV — scroll shadow + mobile menu + active state
+     NAV - scroll shadow + mobile menu + active state
      ========================================================= */
   function initNav() {
     var nav = document.querySelector('.nav');
@@ -523,7 +523,7 @@
   }
 
   /* =========================================================
-     BEFORE / AFTER — touch twin + tag swap (premium crossfade)
+     BEFORE / AFTER - touch twin + tag swap (premium crossfade)
      ========================================================= */
   function initBeforeAfter() {
     document.querySelectorAll('.ba-frame').forEach(function (frame) {
@@ -538,7 +538,7 @@
   }
 
   /* =========================================================
-     CARD TAP HOVER — iOS .is-tapped twin (family rule #22)
+     CARD TAP HOVER - iOS .is-tapped twin (family rule #22)
      ========================================================= */
   function initCardTapHover() {
     var selector = '.cards .card, .service-list .service-row, .equip-grid .equip-card';
@@ -627,7 +627,7 @@
   }
 
   /* =========================================================
-     CONTACT FORM — inline validation + demo success
+     CONTACT FORM - inline validation + demo success
      ========================================================= */
   function initContactForm() {
     var form = document.getElementById('contact-form');

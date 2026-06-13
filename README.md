@@ -1,4 +1,4 @@
-# Vask & Ro — Demo Site
+# Vask & Ro: Demo Site
 
 A two-tier static website prototype for a fictional Norwegian eco-cleaning service (renholdsbyrå) in Trondheim. Built to demonstrate what a real cleaning-company client site can look like at two price points.
 
@@ -12,7 +12,7 @@ A two-tier static website prototype for a fictional Norwegian eco-cleaning servi
 
 ## Tiers
 
-The tier difference is **motion / hover / colour only**. Structure, layout, branding, wordmark, footer and the page palette are identical across both tiers at rest — only the premium tier animates and reveals on interaction.
+The tier difference is **motion / hover / colour only**. Structure, layout, branding, wordmark, footer and the page palette are identical across both tiers at rest. Only the premium tier animates and reveals on interaction.
 
 ### Classic
 A clean, fast marketing site with no frills and no framework overhead.
@@ -24,17 +24,17 @@ A clean, fast marketing site with no frills and no framework overhead.
 - Stripe demo-payment modal (locked phrase, booking-led niche)
 - Vercel Web Analytics on every page
 - Norwegian only (EN translations preserved in `js/main.js`, ready to unlock as a paid upgrade)
-- Fully static — no entrance animation, no backdrop, no hover motion
+- Fully static: no entrance animation, no backdrop, no hover motion
 
 ### Premium
 Same baseline plus the signature motion + interactivity layer.
 
-- **Price-by-area calculator** — kvm × pris/kvm × frekvens-rabatt + tillegg → live, counting total
-- **Recurring vs one-off toggle** — recurring applies a −20% discount
+- **Price-by-area calculator**: kvm × pris/kvm × frekvens-rabatt + tillegg → live, counting total
+- **Recurring vs one-off toggle**: recurring applies a −20% discount
 - **Atmospheric scroll-crossfade backdrop** + rotating-highlight hero typewriter
 - **Before/after hover-reveal** showcase (kitchen + bathroom)
 - **Eco / miljømerket** badge + trust-and-authority section
-- **NO/EN language toggle** — animated segmented switch, active and visible
+- **NO/EN language toggle**: animated segmented switch, active and visible
 - Card-float + icon-drift, scroll-reveal, one-shot nav-logo hover rotate
 - **Visitor-badge view counter** in footer
 
@@ -46,7 +46,7 @@ Vanilla HTML · CSS (custom properties, no framework) · JavaScript (no dependen
 
 - No `npm install`. No build step. Open `index.html` in a browser.
 - Single `css/style.css` + single `js/main.js` per tier (classic appends a static-override tail; classic JS comment-wraps the i18n block)
-- Deployed on Vercel — each tier has a `vercel.json` with 1-year immutable cache for `/assets/*`, 5-minute revalidate for css/js, and security headers (HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy)
+- Deployed on Vercel: each tier has a `vercel.json` with 1-year immutable cache for `/assets/*`, 5-minute revalidate for css/js, and security headers (HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy)
 - Vercel Web Analytics enabled on both projects
 
 ---

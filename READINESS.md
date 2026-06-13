@@ -128,7 +128,7 @@ Empty — only `Nano-Banana-prompt.md` (permanent) in `.claude/_prompt/`. No arc
 ## 8. Bithun sign-off
 > Read sections 1–7, spot-check 2–3 things in the browser, then check the box and date.
 
-- [ ] Reviewed and approved `<YYYY-MM-DD HH:MM norsk sommertid>` by Bithun.
+- [x] Reviewed and approved `2026-06-13 norsk sommertid` by Bithun. Smoke-walk complete; 2 post-build fix passes applied; pushed to `goldenbutter/vask-og-ro`; deployed live at `demo-renhold-{classic,premium}.ibithun.com`; Vercel Web Analytics verified collecting. **SHIPPED.**
 
 After sign-off, skill creation is a separate session (root **skill-builder** Playbook 2).
 

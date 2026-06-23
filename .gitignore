@@ -27,6 +27,9 @@ tmp/
 # Test/preview artifacts
 .playwright-mcp/
 *.png
+
+# Email marketing asset — external email image, must be tracked + deployed
+!demo-renhold-premium/assets/email/*.png
 # Design-preview mockup exports staged at repo root (pv-*.jpeg) — never committed.
 # Real tier assets are *.jpg under demo-*/assets/images/ and stay tracked.
 *.jpeg

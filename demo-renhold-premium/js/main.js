@@ -661,6 +661,18 @@
   /* =========================================================
      INIT
      ========================================================= */
+  /* =========================================================
+     HERO VIDEO (premium): autoplay loop, poster image is the
+     graceful fallback (slow connection, decode failure, reduced motion)
+     ========================================================= */
+  function initHeroVideo() {
+    var v = document.querySelector('.hero-video');
+    if (!v) return;
+    if (REDUCE) { v.removeAttribute('autoplay'); v.removeAttribute('loop'); v.pause(); return; }
+    var p = v.play();
+    if (p && typeof p.catch === 'function') { p.catch(function () {}); } // poster stays if autoplay is blocked
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     applyTranslations();
     initLangToggle();
@@ -668,6 +680,7 @@
     initScrollReveal();
     initTypewriter();
     initFixedBackdrop();
+    initHeroVideo();
     initCalculator();
     initBeforeAfter();
     initCardTapHover();
